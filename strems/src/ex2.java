@@ -12,7 +12,6 @@ public class ex2 {
         System.out.println(uppercaseStrings);
 
 
-
         List<String> lowercaseString = words.stream()
                 .map(String::toLowerCase)
                 .collect(Collectors.toList());
